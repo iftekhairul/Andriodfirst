@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.faisalpasha.phonebook3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to DIU Phonebook"
+        android:textSize="28dp"
+        android:textColor="#3752ff"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/daffodil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Teacher"
+        android:id="@+id/buteach"
+        android:drawableLeft="@drawable/teacher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Staff"
+        android:id="@+id/staffbu"
+        android:drawableLeft="@drawable/staff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buteach"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="IT"
+        android:id="@+id/itbu"
+        android:drawableLeft="@drawable/it"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/staffbu"/>
+</RelativeLayout>
